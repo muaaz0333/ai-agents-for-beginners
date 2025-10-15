@@ -202,6 +202,7 @@ PublishScripts/
 *.nupkg
 # NuGet Symbol Packages
 *.snupkg
+temp_auto_push.bat
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
 # except build/, which is used as an MSBuild target.
@@ -383,11 +384,6 @@ MigrationBackup/
 FodyWeavers.xsd
 
 # VS Code files for those working on multiple tools
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
 *.code-workspace
 
 # Local History for Visual Studio Code
@@ -411,3 +407,4 @@ FodyWeavers.xsd
 
 # Ignore backup files
 *-backup.ipynb
+temp_interactive_push.bat
